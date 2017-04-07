@@ -10,7 +10,7 @@ class Service {
         require_once  'autoload.php';
 
         $this->apiKey = "KEY";
-        $this->listId ="LISTID;
+        $this->listId = "LISTID";
 
         if ($this->apiKey != '') {
             $this->api = new Mailchimp($this->apiKey);
